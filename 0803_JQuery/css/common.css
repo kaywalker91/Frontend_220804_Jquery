@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cen{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    width: 700px;
+    height: 1000px;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+#text1{
+    width: 400px;
+    height: 300px;
+}
+
+#box1{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+#box2{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 165, 118);
+}
+
+#box3{
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+#login_form{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background-color: pink;
+    padding: 10px;
+}
+
+#login_form input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.5em 1em;
+}
+
+#starbucks{
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

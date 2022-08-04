@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>jquery 연습</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="김대각" />
+        <meta name="keywords" content="jquery" />
+        <meta name="description" content="jquery 연습" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+        <link href="css/index.css" rel="stylesheet" />
+        <link href="css/common.css" rel="stylesheet" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/cd58707ead.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id = "cen">
+
+            <img src="images/starbucks.png" id="starbucks"/>
+
+            <select id ="county">
+                <option value="">국가를 선택하세요.</option>
+                <option value="kor">대한민국</option>
+                <option value="ua">미국</option>
+                <option value="jp">일본</option>
+                <option value="ge">독일</option>
+           </select>
+
+           <p id="s_county"></p>
+
+           <button id = "btn1">누르지마시오.</button>
+
+           <button id = "btn2">Click</button>
+
+           <button id = "btn4">버튼4</button>
+
+           <div id="box1"></div>
+
+           <div id="box2"></div>
+
+           <div id="box3">
+                aaaaaaaaaaaaaaaaaaaaaaaa
+                bbbbbbbbbbbbbbbbbbbbbbbb
+                cccccccccccccccccccccccc
+           </div>
+
+           <input type="checkbox" id = "active"/>
+
+           <p id="textlen"><span>0</span>/250</p>
+
+           <textarea id ="text1" placeholder="250자 미만으로 작성하시오"></textarea>
+    
+           <div id="jiho1">
+               
+           </div>
+    
+           <div id="jiho2">
+            
+           </div>
+    
+           <div id="jiho3">
+            
+           </div>
+    
+           <div class="aaa">
+                a0
+           </div>
+    
+            <div class="aaa">
+                a1
+            </div>
+    
+            <div class="aaa">
+                a2
+            </div>
+
+            <p id ="winSize"></p>
+
+            <form id="login_form" action="login.jsp" method="post">
+                <input type="text" id="userid" name="userid" placeholder="사용자 아이디"/>
+                <input type="password"  id="userpw" name="userpw" placeholder="사용자 비밀번호"/>
+                <button id="login_btn" type="button">로그인</button>
+            </form>
+
+        </div>
+        
+        <script src="script/script.js"></script>
+
+    </body>
+
+</html>
